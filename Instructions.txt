@@ -1,0 +1,18 @@
+Create .env file with the following
+REDIRECT_URI=/getAToken
+
+
+#SCOPE = ["User.ReadBasic.All"]
+SCOPE=["User.Read"]
+
+# The sample app will acquire a token to call this API
+ENDPOINT=https://graph.microsoft.com/v1.0/me
+
+#FLASK_DEBUG=True
+B2C_TENANT_NAME=xxxx
+CLIENT_ID=
+CLIENT_SWAKARYAM=
+ 
+SIGNUPSIGNIN_USER_FLOW=B2C_1A_9_SIGNUP_SIGNIN
+#EDITPROFILE_USER_FLOW=B2C_1A_9_profile_editing
+RESETPASSWORD_USER_FLOW=B2C_1A_9_CHANGEPASSWORD
